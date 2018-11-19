@@ -28,6 +28,7 @@ var apc = ["tinubu", "buhari", "rochas", "ambode"];
   //LOOPS
   //loops are used to repeat blocks until a certain condition is met.
   //example 
+  //loop using for and in
   var text = "i have a machine gun";
   var person = {
       firstName: "Jennifer",
@@ -38,4 +39,47 @@ var apc = ["tinubu", "buhari", "rochas", "ambode"];
   for (x in person){
       text += person[x] + " machine gun ";
       }
-     console.log(text); 
+     console.log(text);
+     //loop using while and do
+    //  var text = "having my precious time working on this loop"
+    //  var i = 5;
+    //  while (i < 10) {
+    //      text += "<br> The number is " + i;
+    //      i++;
+    //  }
+    //  console.log(text);
+
+    //  function counters() {
+    //      var jenny = "cunting 1 - 20"
+    //      var i;
+    //      for (i=0; i<20; i++){
+    //         text += "The number is " + i + "<br>";  
+    //      }
+    //  }
+    //  console.log(jenny);
+     function jenny() {
+        var jenny = "";
+        var i;
+        for (i = 0; i < 20; i++) {
+            jenny += "The number is " + i + "<br>";
+        }
+        console.log(jenny);
+    }
+    function counter(){
+        for(jenny = 1; jenny < 21; jenny++){
+            console.log(jenny);
+        }
+    }
+
+    console.log(counter());
+
+    function apcLoop(){
+        for(i = 0; i < apc.length-1 ; i++ ){
+        console.log(apc[i]);
+        }
+    }
+    console.log(apcLoop());
+    console.log(apc.length);
+
+
+    
