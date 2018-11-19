@@ -23,3 +23,9 @@ var apc = ["tinubu", "buhari", "rochas", "ambode"];
   console.log(apc);
   apc[0];
   console.log(apc[0]);
+
+
+  //LOOPS
+  //loops are used to repeat blocks until a certain condition is met.
+  //example 
+  
