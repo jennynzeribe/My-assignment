@@ -28,4 +28,14 @@ var apc = ["tinubu", "buhari", "rochas", "ambode"];
   //LOOPS
   //loops are used to repeat blocks until a certain condition is met.
   //example 
-  
+  var text = "i have a machine gun";
+  var person = {
+      firstName: "Jennifer",
+      lastName: "Nzeribe",
+      age: 26
+  };
+  var x;
+  for (x in person){
+      text += person[x] + " machine gun ";
+      }
+     console.log(text); 
