@@ -10,14 +10,12 @@ header{
     background-color: bisque;
     
 }
-/* Add a black background color to the top navigation */
 nav {
     background-color: peachpuff;
     overflow: hidden;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Style the links inside the navigation bar */
 nav a {
     float: left;
     color: black;
@@ -27,13 +25,12 @@ nav a {
     font-size: 17px;
 }
 
-/* Change the color of links on hover */
+
 nav a:hover {
     background-color: #ddd;
     color: black;
 }
 
-/* Add a color to the active/current link */
 nav a.active {
     background-color: #4CAF50;
     color: white;
@@ -42,7 +39,7 @@ nav a.active {
 #main{
     width:910px;
     height:620px;
-    margin:30px auto
+    margin:30px auto;
     }
     #first{
     width:400px;
