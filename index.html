@@ -25,20 +25,16 @@
         <h1>Login Form</h1>
         <h4>Please fill all entries.</h4>
         <label>Name :</label>
-        <input name="dname" placeholder="Your Name" type="text">
+        <input name="dname" placeholder="Your Name" type="text"required>
         <label>Email :</label>
-        <input name="demail" placeholder="Your Email" type="text">
-        <label>Password :</label>
-        <input name="demail" placeholder="Your Password" type="text">
+        <input name="demail" placeholder="Your Email" type="text" required>
+        <label for="">Password :</label>
+        <input type="password" placeholder="Your Password" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 5 or more characters" required>
+        <p>Already have an account? <a href="sign-in page/sign.html">Sign in</a>.</p>
         <input name="dsubmit" type="submit" value="Send">
+
         </form>
         </div>
         </div>
-        <div class="signin">
-    <p>By creating an account you must first agree to the following  <a href="#">terms and conditions</a> </p>
-    <button type="submit" class="registerbtn">Register</button>
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
-    </div>
-
 </body>
 </html>
