@@ -2,14 +2,13 @@ body{
     background-image:linear-gradient(rgba(255, 192, 203, 0.534),rgba(255, 192, 203, 0.534)), url(../image/fashion1.jpg);
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow:hidden ;
     background-size: cover;
 
 }
 
 header{
     background-color: bisque;
-    
 }
 .prince{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -26,9 +25,19 @@ nav {
     overflow: hidden;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.logo{
+        float: left;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 0px;
+        /* background: #555; */
+        /* position: relative;
+        top: 18px;
+        left: 10px; */
+}
 
 nav a {
-    float: left;
+    float: right;
     color: black;
     text-align: center;
     padding: 14px 16px;
@@ -53,7 +62,7 @@ nav a:hover {
     height:610px;
     /* box-shadow:0 0 0 1px rgba(14,41,57,0.12),0 2px 5px rgba(14,41,57,0.44),inset 0 -1px 2px rgba(14,41,57,0.15); */
     float:right;
-    padding:10px 50px 0;
+    padding:10px 10px 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* background:linear-gradient(#fff,#f2f6f9) */
     }
