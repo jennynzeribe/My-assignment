@@ -88,4 +88,4 @@ var apc = ["tinubu", "buhari", "rochas", "ambode"];
         }
     }
     console.log(apcAsk());
-    console.log(apc.length);
+    console.log(apc.length);    

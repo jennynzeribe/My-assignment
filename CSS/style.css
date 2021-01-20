@@ -2,7 +2,7 @@ body{
     background-image:linear-gradient(rgba(255, 192, 203, 0.534),rgba(255, 192, 203, 0.534)), url(../image/fashion1.jpg);
     margin: 0;
     padding: 0;
-    overflow:hidden ;
+    /* overflow:hidden ; */
     background-size: cover;
 
 }
@@ -14,10 +14,12 @@ header{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     position: fixed;
-    left: -180px;
-    top: 350px;
-    -webkit-transform: rotate(-90deg);
+    left: -200px;
+    /* top: 350px; */
+    bottom: 250px;
+    transform: rotate(-90deg);
     font-size: 20px;
+
     
 }
 nav {
